@@ -1,0 +1,147 @@
+items:
+  musicaddon:empty_disc:
+    material: paper
+    custom-model-data: 3001
+    data:
+      item-name: "<!i>Empty Disc"
+    texture: musicaddon:item/disc
+
+  musicaddon:pocket_jukebox:
+    material: bundle
+    custom-model-data: 3002
+    data:
+      item-name: "<!i>Pocket Jukebox"
+    texture: musicaddon:item/pmp_undyed
+
+  musicaddon:white_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3003
+    data:
+      item-name: "<!i>White Pocket Jukebox"
+    texture: musicaddon:item/white
+  musicaddon:light_gray_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3004
+    data:
+      item-name: "<!i>Light Gray Pocket Jukebox"
+    texture: musicaddon:item/light-gray
+  musicaddon:black_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3005
+    data:
+      item-name: "<!i>Black Pocket Jukebox"
+    texture: musicaddon:item/black
+  musicaddon:brown_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3006
+    data:
+      item-name: "<!i>Brown Pocket Jukebox"
+    texture: musicaddon:item/brown
+  musicaddon:red_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3007
+    data:
+      item-name: "<!i>Red Pocket Jukebox"
+    texture: musicaddon:item/red
+  musicaddon:orange_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3008
+    data:
+      item-name: "<!i>Orange Pocket Jukebox"
+    texture: musicaddon:item/orange
+  musicaddon:yellow_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3009
+    data:
+      item-name: "<!i>Yellow Pocket Jukebox"
+    texture: musicaddon:item/yellow
+  musicaddon:lime_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3010
+    data:
+      item-name: "<!i>Lime Pocket Jukebox"
+    texture: musicaddon:item/lime
+  musicaddon:green_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3011
+    data:
+      item-name: "<!i>Green Pocket Jukebox"
+    texture: musicaddon:item/green
+  musicaddon:cyan_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3012
+    data:
+      item-name: "<!i>Cyan Pocket Jukebox"
+    texture: musicaddon:item/cyan
+  musicaddon:light_blue_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3013
+    data:
+      item-name: "<!i>Light Blue Pocket Jukebox"
+    texture: musicaddon:item/lightblue
+  musicaddon:blue_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3014
+    data:
+      item-name: "<!i>Blue Pocket Jukebox"
+    texture: musicaddon:item/blue
+  musicaddon:purple_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3015
+    data:
+      item-name: "<!i>Purple Pocket Jukebox"
+    texture: musicaddon:item/purple
+  musicaddon:magenta_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3016
+    data:
+      item-name: "<!i>Magenta Pocket Jukebox"
+    texture: musicaddon:item/magenta
+  musicaddon:pink_pocket_jukebox:
+    material: bundle
+    custom-model-data: 3017
+    data:
+      item-name: "<!i>Pink Pocket Jukebox"
+    texture: musicaddon:item/pink
+
+  musicaddon:disc_press:
+    material: paper
+    custom-model-data: 3000
+    data:
+      item-name: "<!i>Disc Press"
+    model:
+      type: minecraft:model
+      path: musicaddon:block/disc_press
+    behavior:
+      type: block_item
+      block: musicaddon:disc_press
+blocks:
+  musicaddon:disc_press:
+    state:
+      auto_state: cactus
+      model:
+        path: musicaddon:block/disc_press
+    settings:
+      item: musicaddon:disc_press
+      is_suffocating: false
+      is_redstone_conductor: false
+      is_view_blocking: false
+    events:
+      right_click:
+        - type: if_else
+          rules:
+            - conditions:
+                - type: hand
+                  hand: main_hand
+                - type: match_item
+                  id: musicaddon:empty_disc
+              functions:
+                - type: command
+                  command: "discpress open <arg:player.name>"
+            - conditions:
+                - type: hand
+                  hand: main_hand
+              functions:
+                - type: message
+                  message: "Hold an empty disc to burn it."
+                  overlay: true

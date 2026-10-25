@@ -1,0 +1,29 @@
+categories:
+  musicaddon:items:
+    name: "<!i><gradient:#FF4500:#40C4FF>Music Features Add-On</gradient>"
+    lore:
+      - "<!i><gray>Music_Features_Add-On items"
+    icon: musicaddon:disc_press
+    priority: 1
+    hidden: false
+    source:
+      type: list
+      list:
+        - musicaddon:empty_disc
+        - musicaddon:disc_press
+        - musicaddon:pocket_jukebox
+        - musicaddon:red_pocket_jukebox
+        - musicaddon:orange_pocket_jukebox
+        - musicaddon:yellow_pocket_jukebox
+        - musicaddon:lime_pocket_jukebox
+        - musicaddon:green_pocket_jukebox
+        - musicaddon:cyan_pocket_jukebox
+        - musicaddon:light_blue_pocket_jukebox
+        - musicaddon:blue_pocket_jukebox
+        - musicaddon:purple_pocket_jukebox
+        - musicaddon:magenta_pocket_jukebox
+        - musicaddon:pink_pocket_jukebox
+        - musicaddon:black_pocket_jukebox
+        - musicaddon:white_pocket_jukebox
+        - musicaddon:light_gray_pocket_jukebox
+        - musicaddon:brown_pocket_jukebox

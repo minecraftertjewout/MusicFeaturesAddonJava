@@ -1,0 +1,268 @@
+recipes:
+  musicaddon:empty_disc:
+    type: shaped
+    category: misc
+    pattern:
+      - " G "
+      - "GPG"
+      - " G "
+    ingredients:
+      P: "minecraft:paper"
+      G: "minecraft:glass_pane"
+    result:
+      id: musicaddon:empty_disc
+      count: 1
+  musicaddon:disc_press:
+    type: shaped
+    category: misc
+    pattern:
+      - "CDC"
+      - "CTC"
+      - "SSS"
+    ingredients:
+      C: "minecraft:copper_ingot"
+      D: "musicaddon:empty_disc"
+      T: "minecraft:crafting_table"
+      S: "minecraft:cobblestone"
+    result:
+      id: musicaddon:disc_press
+      count: 1
+  musicaddon:pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:pocket_jukebox
+      count: 1
+
+  musicaddon:white_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:white_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:white_pocket_jukebox
+      count: 1
+
+  musicaddon:light_gray_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:light_gray_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:light_gray_pocket_jukebox
+      count: 1
+
+  musicaddon:black_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:black_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:black_pocket_jukebox
+      count: 1
+
+  musicaddon:brown_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:brown_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:brown_pocket_jukebox
+      count: 1
+
+  musicaddon:red_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:red_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:red_pocket_jukebox
+      count: 1
+
+  musicaddon:orange_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:orange_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:orange_pocket_jukebox
+      count: 1
+
+  musicaddon:yellow_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:yellow_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:yellow_pocket_jukebox
+      count: 1
+
+  musicaddon:lime_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:lime_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:lime_pocket_jukebox
+      count: 1
+
+  musicaddon:green_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:green_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:green_pocket_jukebox
+      count: 1
+
+  musicaddon:cyan_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:cyan_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:cyan_pocket_jukebox
+      count: 1
+
+  musicaddon:light_blue_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:light_blue_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:light_blue_pocket_jukebox
+      count: 1
+
+  musicaddon:blue_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:blue_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:blue_pocket_jukebox
+      count: 1
+
+  musicaddon:purple_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:purple_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:purple_pocket_jukebox
+      count: 1
+
+  musicaddon:magenta_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:magenta_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:magenta_pocket_jukebox
+      count: 1
+
+  musicaddon:pink_pocket_jukebox:
+    type: shaped
+    category: misc
+    pattern:
+      - "XPX"
+      - "XGX"
+      - "XXX"
+    ingredients:
+      P: "musicaddon:empty_disc"
+      G: "minecraft:pink_bundle"
+      X: "minecraft:copper_nugget"
+    result:
+      id: musicaddon:pink_pocket_jukebox
+      count: 1
